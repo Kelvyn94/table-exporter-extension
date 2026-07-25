@@ -2,11 +2,10 @@
 
 Scan any webpage for HTML tables and export them straight to CSV (opens natively in Excel, Google Sheets, and every spreadsheet tool) — no copy-pasting, no manual reformatting.
 
-![status](https://img.shields.io/badge/status-active-brightgreen) ![manifest](https://img.shields.io/badge/manifest-v3-blue) ![license](https://img.shields.io/badge/license-MIT-lightgrey)
-
 ## Demo
 
-*(GIF/screenshot goes here — see "Adding a demo" below)*
+<img width="1350" height="764" alt="image" src="https://github.com/user-attachments/assets/ca4ef2ac-3cc2-4f88-bde1-256ba9fdd7cc" />
+
 
 ## Features
 
@@ -22,11 +21,7 @@ Built as a practical, freelance-ready tool: manually copy-pasting tables out of 
 
 ## Installation (until published on the Chrome Web Store)
 
-1. Clone or download this repo
-2. Open `chrome://extensions` in Chrome
-3. Enable **Developer mode** (top right)
-4. Click **Load unpacked** and select this folder
-5. Pin the extension icon for easy access
+comming soon... you can contact me for source code 
 
 ## Usage
 
@@ -45,9 +40,4 @@ See `popup.js` for a fully-commented walkthrough of the extraction and export lo
 
 - [ ] True `.xlsx` export (SheetJS integration)
 - [ ] Handle merged cells (`colspan`/`rowspan`) more robustly
-- [ ] Publish to the Chrome Web Store
 
-## License
-
-MIT — free to use, modify, and build on.
-"# table-exporter-extension" 
