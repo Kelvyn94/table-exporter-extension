@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 320px;
+      font-family: -apple-system, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 16px;
+      background: #1a1a1a;
+      color: #eee;
+    }
+    h1 {
+      font-size: 15px;
+      margin: 0 0 4px;
+    }
+    p.subtitle {
+      font-size: 12px;
+      color: #999;
+      margin: 0 0 14px;
+    }
+    #scanBtn {
+      width: 100%;
+      padding: 10px;
+      background: #1D9E75;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      margin-bottom: 12px;
+    }
+    #scanBtn:hover { background: #178a64; }
+
+    #status {
+      font-size: 12px;
+      color: #999;
+      text-align: center;
+      margin-bottom: 8px;
+    }
+
+    .table-item {
+      background: #262626;
+      border-radius: 8px;
+      padding: 10px 12px;
+      margin-bottom: 8px;
+    }
+    .table-item .label {
+      font-size: 13px;
+      font-weight: 500;
+      margin-bottom: 2px;
+    }
+    .table-item .meta {
+      font-size: 11px;
+      color: #888;
+      margin-bottom: 8px;
+    }
+    .table-item button {
+      background: #333;
+      color: #eee;
+      border: none;
+      border-radius: 6px;
+      padding: 5px 10px;
+      font-size: 11px;
+      cursor: pointer;
+      margin-right: 6px;
+    }
+    .table-item button:hover { background: #444; }
+  </style>
+</head>
+<body>
+  <h1>Table Exporter</h1>
+  <p class="subtitle">Find tables on this page, export to CSV/Excel.</p>
+
+  <button id="scanBtn">Scan this page for tables</button>
+  <div id="status"></div>
+  <div id="results"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

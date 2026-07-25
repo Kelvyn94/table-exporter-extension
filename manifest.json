@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Table Exporter — CSV/Excel",
+  "version": "1.0.0",
+  "description": "Find tables on any page and export them straight to CSV or Excel.",
+
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "downloads"
+  ],
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon.png"
+    }
+  },
+
+  "icons": {
+    "48": "icon.png"
+  }
+}
