@@ -21,11 +21,7 @@ Built as a practical, freelance-ready tool: manually copy-pasting tables out of 
 
 ## Installation (until published on the Chrome Web Store)
 
-1. Clone or download this repo
-2. Open `chrome://extensions` in Chrome
-3. Enable **Developer mode** (top right)
-4. Click **Load unpacked** and select this folder
-5. Pin the extension icon for easy access
+comming soon... you can contact me for source code 
 
 ## Usage
 
