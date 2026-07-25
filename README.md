@@ -40,9 +40,4 @@ See `popup.js` for a fully-commented walkthrough of the extraction and export lo
 
 - [ ] True `.xlsx` export (SheetJS integration)
 - [ ] Handle merged cells (`colspan`/`rowspan`) more robustly
-- [ ] Publish to the Chrome Web Store
 
-## License
-
-MIT — free to use, modify, and build on.
-"# table-exporter-extension" 
